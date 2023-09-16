@@ -278,11 +278,11 @@ Note, the above doesnt remove configuration files associated with a package. To 
 
 Since fastq files have a standard four line format (ID starting with @, DNA sequence, quality id starting with +, and quality score), we know that every sequence has a line starting with @ associated with it. 
 
-We could write all of teh ID lines to a separate file:
+We could write all of the ID lines to a separate file:
 
 $ grep "^@" -c sample_passerina.fastq > idlines.txt
 
-We can cound the number of sequences:
+We can count the number of sequences:
 
 $ grep "^@" -c sample_passerina.fastq
 
